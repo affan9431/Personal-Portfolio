@@ -1,6 +1,6 @@
 // // TYPE JS
 var typed = new Typed("#span", {
-  strings: ["Full stack  developer", "Ui/Ux designer"],
+  strings: ["Full stack  developer", "Ui/Ux designer", "Frontend developer"],
   typeSpeed: 50,
   loop: true,
 });
