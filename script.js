@@ -73,6 +73,10 @@ Shery.makeMagnet("#js-logo", {
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
   duration: 1,
 });
+Shery.makeMagnet("#ts-logo", {
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
 
 Shery.makeMagnet("#react-logo", {
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
@@ -120,6 +124,10 @@ Shery.makeMagnet("#figma-logo", {
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
   duration: 1,
 });
+Shery.makeMagnet("#nextJs-logo", {
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
 
 Shery.imageMasker("#web-img img" /* Element to target.*/, {
   //Parameters are optional.
@@ -152,6 +160,12 @@ Shery.imageMasker("#css-logo", {
 Shery.imageMasker("#js-logo", {
   mouseFollower: true,
   text: "JavaScript",
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
+Shery.imageMasker("#ts-logo", {
+  mouseFollower: true,
+  text: "TypeScript",
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
   duration: 1,
 });
@@ -222,6 +236,14 @@ Shery.imageMasker("#figma-logo", {
   ease: "cubic-bezier(0.23, 1, 0.320, 1)",
   duration: 1,
 });
+
+Shery.imageMasker("#nextJs-logo", {
+  mouseFollower: true,
+  text: "Next Js",
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
+
 Shery.imageMasker("#project-1", {
   mouseFollower: true,
   text: "Developed with Vanilla JS",
